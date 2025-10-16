@@ -28,9 +28,9 @@ def test_valider_notes():
 # -----------------------------
 def test_calculer_points():
     # Arrange
-    vbase = (2.5)
-    notes = [0,0,0,0,0,0,0,0,0]
-    resultat_attendu = 2.5
+    vbase = (1)
+    notes = [-1,-2,-1,-3,-2,-1,-3,-2,-3]
+    resultat_attendu = -1
 
     # Act
     resultat_fonc2 = notation.calculer_points(vbase, notes)
