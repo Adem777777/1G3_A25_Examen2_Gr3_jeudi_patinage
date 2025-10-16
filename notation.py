@@ -26,7 +26,9 @@ def calculer_points(vbase: float, notes: list[float]) -> float:
     :returns: valeur de la note finale
     """
     try:
-        valider_notes(notes)
+        statut =  valider_notes(notes)
+        if statut == False:
+            return "Erreur" # si la liste est plus petite ou grande que 9, renvoie une erreur
 
         note_max = max(notes)
         note_min = min(notes)
