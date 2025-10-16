@@ -28,8 +28,8 @@ def test_valider_notes():
 # -----------------------------
 def test_calculer_points():
     # Arrange
-    vbase = (3)
-    notes = [1,2,1,2,3,4,2,3,2,2,3,2,3,2]
+    vbase = (2.5)
+    notes = [4,5,3,1,2,3,6,7,9,5,5,4,-5]
     resultat_attendu = "Erreur"
 
     # Act
