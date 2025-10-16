@@ -39,7 +39,7 @@ def calculer_points(vbase: float, notes: list[float]) -> float:
 
 
         moyenne = sum(notes) / 7 # 9 remplacé par 7, pusique qu'il y a seulement 7 valeurs
-        total = round(vbase + moyenne, 2)
+        total = round(vbase + moyenne, 2) # arrondi
         return total
 
     except ValueError:
